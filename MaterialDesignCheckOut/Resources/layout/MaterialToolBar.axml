@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<!--Header Tool Bar-->
+    <include
+        android:id="@+id/toolbar1"
+        layout="@layout/toolbar1" />
+<!--Content or Body-->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/itemsRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+<!--Footer or Bottom Tool Bar-->
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/main_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/footer">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="8dp"
+                android:id="@+id/tab1">
+                <ImageButton
+                    android:id="@+id/tab1_icon"
+                    android:layout_weight="2"
+                    android:layout_height="0dp"
+                    android:layout_width="match_parent"
+                    android:background="@color/grey"
+                    android:src="@drawable/wine"
+                    android:clickable="true"
+                    android:fontFamily="sans-serif-light" />
+                <TextView
+                    android:gravity="center"
+                    android:id="@+id/tab1_text"
+                    android:layout_weight="1"
+                    android:textColor="@color/white"
+                    android:textSize="8dp"
+                    android:layout_height="0dp"
+                    android:layout_width="match_parent"
+                    android:text="tab1" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/tab2">
+                <ImageButton
+                    android:id="@+id/tab2_icon"
+                    android:layout_weight="2"
+                    android:layout_height="0dp"
+                    android:layout_width="match_parent"
+                    android:background="@color/grey"
+                    android:src="@drawable/ic_favorites"
+                    android:clickable="true"
+                    android:fontFamily="sans-serif-light" />
+                <TextView
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:id="@+id/tab2_text"
+                    android:textColor="@color/white"
+                    android:textSize="8dp"
+                    android:layout_height="0dp"
+                    android:layout_width="match_parent"
+                    android:text="tab2" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/tab3">
+                <ImageButton
+                    android:id="@+id/tab3_icon"
+                    android:layout_weight="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:background="@color/grey"
+                    android:src="@drawable/ic_icon4"
+                    android:clickable="true"
+                    android:fontFamily="sans-serif-light" />
+                <TextView
+                    android:gravity="center"
+                    android:id="@+id/tab3_text"
+                    android:layout_weight="1"
+                    android:textColor="@color/white"
+                    android:textSize="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:text="tab3" />
+            </LinearLayout>
+        <!--<LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/tab4">
+            <ImageButton
+                android:id="@+id/tab4_icon"
+                android:layout_weight="2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@color/grey"
+                android:src="@drawable/ic_icon4"
+                android:clickable="true"
+                android:fontFamily="sans-serif-light" />
+            <TextView
+                android:gravity="center"
+                android:id="@+id/tab4_text"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:textSize="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="tab4" />
+        </LinearLayout>-->
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

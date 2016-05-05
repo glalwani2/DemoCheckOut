@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <EditText
+            android:id="@+id/firstName"
+            android:layout_width="167.0dp"
+            android:layout_height="40.5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="70dp" />
+        <EditText
+            android:id="@+id/lastName"
+            android:layout_width="167.0dp"
+            android:layout_height="40.5dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginRight="20dp"
+            android:layout_toRightOf="@+id/firstName" />
+        <TextView
+            android:id="@+id/lblFirstName"
+            android:layout_width="167.0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="First name"
+            android:gravity="center"
+            android:layout_below="@+id/firstName"
+            android:textColor="@color/white" />
+        <TextView
+            android:id="@+id/lblLastName"
+            android:layout_width="167.0dp"
+            android:layout_height="wrap_content"
+            android:text="Last name"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:layout_toRightOf="@+id/lblFirstName"
+            android:layout_below="@+id/lastName"
+            android:textColor="@color/white" />
+        <EditText
+            android:id="@+id/street"
+            android:layout_width="334dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lblLastName"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp" />
+        <TextView
+            android:id="@+id/lblStreet"
+            android:layout_width="334dp"
+            android:layout_height="wrap_content"
+            android:text="Street"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:layout_below="@+id/street"
+            android:textColor="@color/white" />
+        <EditText
+            android:id="@+id/city"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lblStreet"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="20dp" />
+        <TextView
+            android:id="@+id/lblCity"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="City"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:layout_below="@+id/city"
+            android:textColor="@color/white" />
+        <EditText
+            android:id="@+id/state"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lblStreet"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@+id/city"
+            android:layout_marginLeft="10dp" />
+        <TextView
+            android:id="@+id/lblState"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="State"
+            android:layout_marginRight="20dp"
+            android:layout_toRightOf="@+id/lblCity"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:layout_below="@+id/state"
+            android:textColor="@color/white" />
+        <EditText
+            android:id="@+id/zip"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lblStreet"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_toRightOf="@+id/state"
+            android:layout_marginLeft="10dp" />
+        <TextView
+            android:id="@+id/lblZip"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Zip"
+            android:layout_marginRight="20dp"
+            android:layout_toRightOf="@+id/lblState"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:layout_below="@+id/zip"
+            android:textColor="@color/white" />
+        <EditText
+            android:id="@+id/userName"
+            android:layout_width="334dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/city"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp" />
+        <TextView
+            android:id="@+id/lblUserName"
+            android:layout_width="334dp"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:layout_below="@+id/userName"
+            android:textColor="@color/white" />
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="334dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lblUserName"
+            android:inputType="textPassword"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp" />
+        <TextView
+            android:id="@+id/lblPassword"
+            android:layout_width="334dp"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:layout_below="@+id/password"
+            android:textColor="@color/white" />
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="334dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_register"
+            android:background="@drawable/registerRegisterButtonShape"
+            android:layout_marginTop="450dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@android:color/white" />
+    </RelativeLayout>
+</ScrollView>

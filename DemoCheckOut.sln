@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoCheckOut", "DemoCheckOut\DemoCheckOut.csproj", "{EFC33A6D-B13E-4CA2-9806-F7422333BBF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaterialDesignCheckOut", "MaterialDesignCheckOut\MaterialDesignCheckOut.csproj", "{101FAACB-53C3-4F3E-941A-4947EF257215}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFC33A6D-B13E-4CA2-9806-F7422333BBF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFC33A6D-B13E-4CA2-9806-F7422333BBF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFC33A6D-B13E-4CA2-9806-F7422333BBF4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EFC33A6D-B13E-4CA2-9806-F7422333BBF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFC33A6D-B13E-4CA2-9806-F7422333BBF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFC33A6D-B13E-4CA2-9806-F7422333BBF4}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{101FAACB-53C3-4F3E-941A-4947EF257215}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{101FAACB-53C3-4F3E-941A-4947EF257215}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{101FAACB-53C3-4F3E-941A-4947EF257215}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{101FAACB-53C3-4F3E-941A-4947EF257215}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{101FAACB-53C3-4F3E-941A-4947EF257215}.Release|Any CPU.Build.0 = Release|Any CPU
+		{101FAACB-53C3-4F3E-941A-4947EF257215}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

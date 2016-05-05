@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="Hello">Hello World, Click Me!</string>
+  <string name="ApplicationName">Rhythm</string>
+  <string name="one">One</string>
+  <string name="two">Two</string>
+  <string name="hint_name">Username</string>
+  <string name="hint_email">Email</string>
+  <string name="hint_password">Password</string>
+  <string name="btn_sign_in">LOGIN</string>
+  <string name="btn_register">REGISTER</string>
+
+  <!-- Register Screen -->
+  <string name="firstName">First name</string>
+  <string name="lastName">Last name</string>
+
+  <string name="delete">Delete</string>
+  <string name="search">Search</string>
+  <string name="settings">Settings</string>
+  <string name="edit">Edit</string>
+  <string name="exit">Exit</string>
+  
+</resources>
